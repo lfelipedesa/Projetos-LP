@@ -4,26 +4,37 @@
     padding: 0;
 }
 
+
 .btn{
     background-color: #00FFCC;
     color: black;
+    font-size: medium;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    width: 180px;
-    padding: 5px;
+    width: 248px;
+    padding: 9px;
     margin-left: 5px;
     margin-top: 5px;
     border-radius: 6px;
     cursor: pointer;
+    position: fixed;
+    top: 423px;
+    left: 873px;
 }
 
 
 
 #email{
-    background: white;
-    padding: 6px;
-    margin: 0px 2px;
-    border-radius: 6px;
     text-align: center;
+    background: white;
+    width: 248px;
+    padding: 9px;
+    padding-left: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 6px;
+    position: fixed;
+    top: 382px;
+    left: 858px;
 
 }
 body{
