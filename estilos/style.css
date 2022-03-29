@@ -4,8 +4,9 @@
     padding: 0;
 }
 
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .btn{
+    font-family:'Montserrat', sans-serif;
     background-color: #00FFCC;
     color: black;
     font-size: medium;
@@ -19,15 +20,25 @@
     position: fixed;
     top: 423px;
     left: 873px;
+    font-family:'Montserrat', sans-serif;
 }
 
-.btn:hover{
-    
+#bt .btn{
+    animation: none;
+    animation-duration: 0s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: none
 }
 
 
 
 #email{
+    max-width: max-content;
     text-align: center;
     background: white;
     width: 248px;
