@@ -1,78 +1,106 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Montserrat&family=Roboto:ital,wght@1,100&display=swap');
 *{
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-.btn{
-    font-family:'Montserrat', sans-serif;
-    background-color: #00FFCC;
-    color: black;
-    font-size: medium;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    width: 248px;
-    padding: 9px;
-    margin-left: 5px;
-    margin-top: 5px;
-    border-radius: 6px;
-    cursor: pointer;
-    position: fixed;
-    top: 423px;
-    left: 873px;
-    font-family:'Montserrat', sans-serif;
+@media (max-width:550px)
+
+    {
+
+        .ganhe{
+            left: 20%;
+        }
+    }
+
+@media (max-width:300px){
+    .ganhe{
+        left: 20%;
+    }
 }
-
-#bt .btn{
-    animation: none;
-    animation-duration: 0s;
-    animation-timing-function: ease-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
-    animation-name: none
-}
-
-
-
-#email{
-    max-width: max-content;
-    text-align: center;
-    background: white;
-    width: 248px;
-    padding: 9px;
-    padding-left: 10px;
-    margin-left: 5px;
-    margin-top: 5px;
-    border-radius: 6px;
-    position: fixed;
-    top: 382px;
-    left: 858px;
-
-}
-
-
-
 body{
-    background-image: url(LP.jpg);
-}
-a{
-    color: rgb(223, 219, 219);
-    text-decoration: none;
-}
-
-fieldset{
-    border: 0;
+    background-image: url(fantastic-4805585_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.footer {
-    background-color: black;
-    color: rgb(223, 219, 219);
+.logo{
+    margin-left: 50%;
+    margin-top: 100px;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    left: 50%;  
+    top: 50%;
+    
+}
+
+.negrito{
+    color: yellow;
+}
+
+h1{
+    left: 0;
+    margin-top: -6%;
+    color: white;
     text-align: center;
-    font-size: small;
-	position:absolute;
-	bottom:0;
-	width:100%;
+    font-size: 22px;
+    font-family: 'Arimo', sans-serif;
 }
+
+
+
+h2{
+    margin-top: 1%;
+    color: yellow;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+}  
+
+form{
+    margin-top: 15px;
+    padding: 6px;
+    border-radius: 5px;
+    width: 100%;
+}
+input{
+    padding: 15px;
+    border-radius: 8px;
+    width: 440px;
+    height: 40px;
+    
+}
+
+button{
+    top: 15px;
+    font-size: 15px;
+    background-color: aqua;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 10px;
+    width: 450px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    padding-top: 8px;
+    font-size: 12px;
+    text-align: center;
+    background-color: black;
+    position: fixed;
+    color: white;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    bottom: 0;
+    left: 0px;
+}
+
